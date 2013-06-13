@@ -7,9 +7,8 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.etipl</groupId>
-  <artifactId>patientportal-ear</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>patientportal-ear</artifactId>  
+  <version>1.0.0</version>
   <packaging>ear</packaging>
 
   <name>patientportal-ear</name>
