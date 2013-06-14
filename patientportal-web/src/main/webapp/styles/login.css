@@ -1,0 +1,51 @@
+/** 
+    Document     : login.css
+    Created on   : Sep 26, 2012, 1:21:13 PM
+    Author       : MUTHU
+    Description  :  Purpose of the stylesheet follows.
+*/
+
+.container {	
+	width:220px;
+	padding:10px;
+	border:5px solid gray;
+	margin:0px;
+	align:center;
+}
+body{
+    width:99%;
+    height:100%;
+    top:200px;
+    background-image:url(../images/bg.png);
+    background-color: #9999ff;
+}
+
+table.toplogin{
+	background:url(../images/bgTop.png);
+	cellpadding:5px;
+	cellspacing:1px;
+	width:25%;
+}
+
+table.middlelogin{
+	border:0px;
+	background:url(../images/bg.png);
+	cellpadding:5px;
+	cellspacing:1px;
+	width:25%px;
+}
+
+table.bottomlogin{
+	border:0px;
+	background:url(../images/bgBottom1.png);
+	cellpadding:5px;
+	cellspacing:1px;
+	width:25%;
+}
+
+span.h3{
+	text-weight:bold;
+}
+html{
+	height: 100%;
+}

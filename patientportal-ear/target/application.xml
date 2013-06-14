@@ -2,13 +2,13 @@
 <application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
   <display-name>patientportal-ear</display-name>
   <module>
-    <ejb>patientportal-ejb-1.0-SNAPSHOT.jar</ejb>
-  </module>
-  <module>
     <web>
-      <web-uri>patientportal-web-1.0-SNAPSHOT.war</web-uri>
+      <web-uri>patientportal-web-1.0.0.war</web-uri>
       <context-root>/patientportal-web</context-root>
     </web>
+  </module>
+  <module>
+    <ejb>patientportal-ejb-1.0.0.jar</ejb>
   </module>
   <library-directory>lib</library-directory>
 </application>

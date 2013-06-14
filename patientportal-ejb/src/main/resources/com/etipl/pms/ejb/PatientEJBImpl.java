@@ -187,10 +187,10 @@ public class PatientEJBImpl implements PatientEJBIf {
 		try {
 			logger.info("Entered getPatientInsurance");
 
-			TypedQuery<PatientInsurance> q = em
-					.createQuery(
-							"select pi from PatientInsurance pi GROUP BY pi.insuranceCompanyId ORDER BY pi.insuranceCompanyId",
-							PatientInsurance.class);
+			TypedQuery<PatientInsurance> q = em.createQuery(
+			"select pi from PatientInsurance pi GROUP BY pi.insuranceCompanyId ORDER BY pi.insuranceCompanyId",
+				PatientInsurance.class);
+			
 			patientInsurance = q.getResultList();
 
 			logger.info("End getPatientInsurance");
